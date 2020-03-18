@@ -9,9 +9,8 @@ class Polygon {
   }
   
   get perimeter(){
-    let total;
-   for(let i =0; i< (this.side).length; i++) 
-      (total += (this.side)[i])
-      return total
+    let total = (this.side).slice(0, 3)
+   
+      return total + this.side
   }
 }
