@@ -11,7 +11,7 @@ class Polygon {
   get perimeter(){
     let total = 0
     for(let i = 0; this.side.length; i++)
-      (total += (this.side)[i])
+      (total += (this.side)[i]);
       return total
   }
 }
