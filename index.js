@@ -3,4 +3,8 @@ class Polygon {
   construtor(arr){
     
   }
+  
+  get countSides() {
+    
+  }
 }
