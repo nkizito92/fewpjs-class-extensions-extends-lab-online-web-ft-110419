@@ -1,6 +1,6 @@
 // Your code here
 class Polygon {
-  construtor(side){
+ constructor(side)
     this.side = side;
   }
   
