@@ -1,7 +1,7 @@
 // Your code here
 class Polygon {
-  construtor(arr){
-    
+  construtor(side){
+    this.side = side;
   }
   
   get countSides() {
