@@ -9,7 +9,7 @@ class Polygon {
   }
   
   get perimeter(){
-    let total = (this.side).slice(0, 3)
+    let total = (this.side).split(" + ")
    
       return parseInt(total) * this.side.length
   }
