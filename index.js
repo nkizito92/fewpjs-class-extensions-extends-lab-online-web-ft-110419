@@ -11,6 +11,6 @@ class Polygon {
   get perimeter(){
     let total = (this.side).split(" + ")
    
-      return parseInt(total) * this.side.length
+      return parseInt(total)
   }
 }
